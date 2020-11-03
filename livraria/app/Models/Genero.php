@@ -5,7 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class AutoresController extends Model
+class Genero extends Model
 {
     use HasFactory;
+    protected $primarykey="idg";
+    protected $table="generos";
 }
